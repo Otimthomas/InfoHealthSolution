@@ -4,8 +4,26 @@
   box-sizing: inherit;
 }
 
+:root {
+  --primaryColor : rgb(117,46,140);
+  --secondaryColor: rgb(66, 17, 83);
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
 
+body {
+  font-weight: 400 !important;
+}
+
+.container {
+  margin: 0 8rem;
+}
+
+/* @media screen and (max-width: 990px) {
+  .app {
+    overflow: hidden;
+  }
+} */

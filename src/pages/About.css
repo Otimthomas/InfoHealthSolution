@@ -1,0 +1,49 @@
+.about {
+	font-size: 1.7rem;
+	display: flex;
+	/* justify-content: space-evenly; */
+}
+
+.about__left {
+	flex: .9;
+}
+
+.about__right {
+	align-self: start;
+	margin-left: 3rem;
+	width: 30rem;
+	/* border: 1px solid #000; */
+	padding: 3rem 2.5rem;
+	border-radius: 2.5rem;
+	background-color: rgb(189, 189, 189);
+}
+
+.about__right .about__title--values {
+	font-size: 2.5rem;
+	font-weight: 400;
+	margin-bottom: 1.5rem;
+}
+
+.about__right > p {
+	text-transform: uppercase;
+}
+
+
+
+.about .about__title {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+@media (max-width: 990px){
+	.about {
+		flex-direction: column;
+	}
+
+	.about__right {
+		width: 100%;
+		margin-left: 0;
+	}
+}
