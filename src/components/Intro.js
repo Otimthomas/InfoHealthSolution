@@ -6,7 +6,6 @@ import "./Intro.css";
 
 function Intro() {
   return (
-    <div className='container'>
       <div className='intro'>
         <div className='intro__left'>
           <h2 className='intro__title'>+ Welcome</h2>
@@ -41,7 +40,6 @@ function Intro() {
           </Link>
         </div>
       </div>
-    </div>
   );
 }
 

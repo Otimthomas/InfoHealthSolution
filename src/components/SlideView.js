@@ -68,7 +68,6 @@ const SlideView = () => {
   });
 
   return (
-    <div className='container'>
       <Carousel
         className='slideview'
         activeIndex={activeIndex}
@@ -91,7 +90,6 @@ const SlideView = () => {
           onClickHandler={next}
         />
       </Carousel>
-    </div>
   );
 };
 
