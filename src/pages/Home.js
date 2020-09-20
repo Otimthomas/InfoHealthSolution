@@ -10,10 +10,8 @@ import "./Home.css";
 function Home() {
   return (
     <div className='home'>
-      <div className='container'>
-        <SlideView />
-        <Intro />
-      </div>
+      <SlideView />
+      <Intro />
       <div className='home__services'>
         <div className='home__service'>
           <span className='home__serviceIcon'>

@@ -11,7 +11,6 @@ import medical1 from "../assets/medical1.jpg";
 import medical2 from "../assets/medical2.jpg";
 import medical3 from "../assets/medical3.jpg";
 
-
 const items = [
   {
     src: medical1,
@@ -69,28 +68,30 @@ const SlideView = () => {
   });
 
   return (
-    <Carousel
-      className='slideview'
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}>
-      <CarouselIndicators
-        items={items}
+    <div className='container'>
+      <Carousel
+        className='slideview'
         activeIndex={activeIndex}
-        onClickHandler={goToIndex}
-      />
-      {slides}
-      <CarouselControl
-        direction='prev'
-        directionText='Previous'
-        onClickHandler={previous}
-      />
-      <CarouselControl
-        direction='next'
-        directionText='Next'
-        onClickHandler={next}
-      />
-    </Carousel>
+        next={next}
+        previous={previous}>
+        <CarouselIndicators
+          items={items}
+          activeIndex={activeIndex}
+          onClickHandler={goToIndex}
+        />
+        {slides}
+        <CarouselControl
+          direction='prev'
+          directionText='Previous'
+          onClickHandler={previous}
+        />
+        <CarouselControl
+          direction='next'
+          directionText='Next'
+          onClickHandler={next}
+        />
+      </Carousel>
+    </div>
   );
 };
 

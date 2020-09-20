@@ -42,7 +42,7 @@ function HomeTeam() {
     },
   ];
   return (
-    <div>
+    <div className="container">
       <div className='hometeam'>
         <h2 className='hometeam__title'>Our team</h2>
         <p>Get to know some of our team members</p>
