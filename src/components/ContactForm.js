@@ -3,41 +3,44 @@ import Joi from "joi-browser";
 import Form from "./common/Form";
 
 class ContactForm extends Form {
-	state = {
-		data: {
-			username: "",
-			password: ""
-		},
-		errors: {}
-	};
+  state = {
+    data: {
+	  name: "",
+	  phone: "",
+	  email: "",
+	  subject: '',
+	  message: ''
+    },
+    errors: {},
+  };
 
-	schema = {
-		username: Joi.string()
-			.required()
-			.label("Username"),
-		password: Joi.string()
-			.required()
-			.label("Password")
-	};
+  schema = {
+	name: Joi.string().required().label("Name"),
+	email: Joi.string().email().required().label("Email"),
+	subject: Joi.string().required().label('Subject'),
+	phone: Joi.number().required().label('Phone'),
+	message: Joi.string().required().label('Message')
+  };
 
-	doSubmit = () => {
-		//call server
-		console.log("Form submitted");
-	};
+  doSubmit = () => {
+    //call server
+    console.log(this.state.data);
+  };
 
-	render() {
-		return (
-			<div>
-				<h1>Login</h1>
-				<form onSubmit={this.handleSubmit}>
-					{this.renderInput("name", "Name")}
-					{this.renderInput("email", "Email")}
-					{this.renderButton("Send")}
-				</form>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <form onSubmit={this.handleSubmit}>
+          {this.renderInput("name", "Name")}
+          {this.renderInput("email", "Email")}
+		  {this.renderInput('phone', 'Phone')}
+		  {this.renderInput('subject', 'Subject')}
+		  {this.renderTextArea('message', 'Message or Comment')}
+          {this.renderButton("Send")}
+        </form>
+      </div>
+    );
+  }
 }
 
 export default ContactForm;
-
