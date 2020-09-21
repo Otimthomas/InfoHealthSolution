@@ -42,22 +42,26 @@ function HomeTeam() {
     },
   ];
   return (
-      <div className='hometeam'>
-        <h2 className='hometeam__title'>Our team</h2>
-        <p>Get to know some of our team members</p>
-        <div className='hometeam__cards'>
-          <MultiCarousel data={team}>
-            {team.map((item) => (
+    <div className='hometeam'>
+      <h2 className='hometeam__title'>Our team</h2>
+      <p>Get to know some of our team members</p>
+      <div className='hometeam__cards'>
+        <MultiCarousel data={team}>
+          {team.map((item) => (
             <div className='hometeam__card'>
-              <img className='hometeam__cardImg' src={item.img} alt={item.name} />
+              <img
+                className='hometeam__cardImg'
+                src={item.img}
+                alt={item.name}
+              />
               <p className='hometeam__cardName'>{item.name}</p>
               <h3 className='hometeam__cardPosition'>{item.position}</h3>
               <p className='hometeam__cardText'>{item.history}</p>
             </div>
           ))}
-          </MultiCarousel>
-        </div>
+        </MultiCarousel>
       </div>
+    </div>
   );
 }
 
