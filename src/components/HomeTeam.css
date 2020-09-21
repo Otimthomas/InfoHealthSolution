@@ -1,4 +1,6 @@
 .hometeam {
+	padding-right: 2rem;
+	padding-left: 2rem;
 	margin-top: 5rem;
 	text-align: center;
 	font-size: 1.5rem;
@@ -47,6 +49,7 @@
 
 @media (max-width: 990px){
 	.hometeam__cards {
+		/* width: 100%; */
 	}
 
 	.hometeam__card {
@@ -56,6 +59,7 @@
 
 @media (max-width: 660px){
 	.hometeam__cards {
+		width: 100%;
 	}
 	.hometeam__card {
 		width: 100%;

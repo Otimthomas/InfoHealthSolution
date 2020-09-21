@@ -1,6 +1,8 @@
 .intro {
 	font-size: 1.5rem;
 	margin-top: 3rem;
+	padding-right: 4rem;
+	padding-left: 4rem;
 	display: flex;
 	justify-content: space-evenly;
 }

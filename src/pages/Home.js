@@ -13,62 +13,62 @@ function Home() {
       <SlideView />
       <Intro />
       <div className='home__services'>
-        <div className='home__service'>
-          <span className='home__serviceIcon'>
-            <FaAccusoft />
-          </span>
-          <p className='home__serviceText'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, enim
-            repellat veritatis nobis eaque rem. Nisi distinctio illum odit
-            excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Deleniti odio illo necessitatibus perferendis, sed nemo
-          </p>
-          <Link className='home__serviceLink' to='/services'>
-            Read More
-          </Link>
-        </div>
-        <div className='home__service'>
-          <span className='home__serviceIcon'>
-            <FaAccusoft />
-          </span>
-          <p className='home__serviceText'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, enim
-            repellat veritatis nobis eaque rem. Nisi distinctio illum odit
-            excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Deleniti odio illo necessitatibus perferendis, sed nemo
-          </p>
-          <Link className='home__serviceLink' to='/services'>
-            Read More
-          </Link>
-        </div>
-        <div className='home__service'>
-          <span className='home__serviceIcon'>
-            <FaAccusoft />
-          </span>
-          <p className='home__serviceText'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, enim
-            repellat veritatis nobis eaque rem. Nisi distinctio illum odit
-            excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Deleniti odio illo necessitatibus perferendis, sed nemo
-          </p>
-          <Link className='home__serviceLink' to='/services'>
-            Read More
-          </Link>
-        </div>
-        <div className='home__service'>
-          <span className='home__serviceIcon'>
-            <FaAccusoft />
-          </span>
-          <p className='home__serviceText'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, enim
-            repellat veritatis nobis eaque rem. Nisi distinctio illum odit
-            excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Deleniti odio illo necessitatibus perferendis, sed nemo
-          </p>
-          <Link className='home__serviceLink' to='/services'>
-            Read More
-          </Link>
-        </div>
+          <div className='home__service'>
+            <span className='home__serviceIcon'>
+              <FaAccusoft />
+            </span>
+            <p className='home__serviceText'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              enim repellat veritatis nobis eaque rem. Nisi distinctio illum
+              odit excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Deleniti odio illo necessitatibus perferendis, sed nemo
+            </p>
+            <Link className='home__serviceLink' to='/services'>
+              Read More
+            </Link>
+          </div>
+          <div className='home__service'>
+            <span className='home__serviceIcon'>
+              <FaAccusoft />
+            </span>
+            <p className='home__serviceText'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              enim repellat veritatis nobis eaque rem. Nisi distinctio illum
+              odit excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Deleniti odio illo necessitatibus perferendis, sed nemo
+            </p>
+            <Link className='home__serviceLink' to='/services'>
+              Read More
+            </Link>
+          </div>
+          <div className='home__service'>
+            <span className='home__serviceIcon'>
+              <FaAccusoft />
+            </span>
+            <p className='home__serviceText'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              enim repellat veritatis nobis eaque rem. Nisi distinctio illum
+              odit excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Deleniti odio illo necessitatibus perferendis, sed nemo
+            </p>
+            <Link className='home__serviceLink' to='/services'>
+              Read More
+            </Link>
+          </div>
+          <div className='home__service'>
+            <span className='home__serviceIcon'>
+              <FaAccusoft />
+            </span>
+            <p className='home__serviceText'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              enim repellat veritatis nobis eaque rem. Nisi distinctio illum
+              odit excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Deleniti odio illo necessitatibus perferendis, sed nemo
+            </p>
+            <Link className='home__serviceLink' to='/services'>
+              Read More
+            </Link>
+          </div>
       </div>
 
       <div className='home__contact'>
