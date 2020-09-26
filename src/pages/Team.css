@@ -1,0 +1,91 @@
+/* .team {
+	margin-right: 4rem;
+	margin-left: 4rem;
+	padding-top: 4rem;
+
+	display: flex;
+} */
+
+.team {
+	padding-right: 4rem;
+	padding-left: 4rem;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	text-align: left;
+	font-size: 1.5rem;
+	line-height: 1.7;
+	/* background-color: #fff !important; */
+
+	/* display: flex; */
+}
+
+
+.team__cards {
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+
+	display: flex;
+}
+
+.team__card {
+	padding: 1rem;
+	width: 50%;
+	/* justify-self: center; */
+	
+}
+
+.team__card:focus {
+	outline: none;
+}
+
+.team__cardImg {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.team__cardName {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.team__cardText {
+	overflow: hidden;
+}
+
+.team__cardPosition {
+	background-color: var(--primaryColor);
+	padding: .5rem 1rem;
+}
+
+
+
+ @media (max-width: 990px){
+	.team__cards {
+		width: 80% !important;
+		
+	}
+
+	.team__card {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 660px){
+	/* .team {
+		flex-direction: column;
+	} */
+	.team__cards {
+		flex-direction: column;
+		width: 100% !important;
+	}
+	.team__card {
+		width: 100% !important;
+	}
+	.team__card:not(:last-child){
+		margin-bottom: 4rem;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid gray;
+	}
+} 

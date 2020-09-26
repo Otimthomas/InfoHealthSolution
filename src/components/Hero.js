@@ -22,7 +22,8 @@ const HeroWrapper = styled.div`
   color: #fff;
   background: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)),
 	url(${(props) => props.img}) center/cover no-repeat;
-	margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */
+  padding: 10rem 0;
   .title {
     padding-top: 2rem;
     font-size: 3rem;

@@ -2,6 +2,7 @@
 	padding-right: 2rem;
 	padding-left: 2rem;
 	margin-top: 5rem;
+	margin-bottom: 2rem;
 	text-align: center;
 	font-size: 1.5rem;
 	background-color: #fff !important;
@@ -21,11 +22,16 @@
 
 .hometeam__cards {
 	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 65%;
 }
 
 .hometeam__card {
 	padding: 1rem;
-	width: 27rem;
+	width: 100% !important;
+	/* justify-self: center; */
+	
 }
 
 .hometeam__card:focus {
@@ -42,26 +48,33 @@
 	text-transform: uppercase;
 }
 
+.hometeam__cardText {
+	/* height: 25rem !important; */
+	overflow: hidden;
+}
+
 .hometeam__cardPosition {
 	background-color: var(--primaryColor);
 	padding: .5rem 1rem;
 }
 
-@media (max-width: 990px){
+
+
+ @media (max-width: 990px){
 	.hometeam__cards {
-		/* width: 100%; */
+		width: 80% !important;
 	}
 
 	.hometeam__card {
-		width: 50%;
+		width: 100% !important;
 	}
 }
 
 @media (max-width: 660px){
 	.hometeam__cards {
-		width: 100%;
+		width: 100% !important;
 	}
 	.hometeam__card {
-		width: 100%;
+		width: 100% !important;
 	}
-}
+} 

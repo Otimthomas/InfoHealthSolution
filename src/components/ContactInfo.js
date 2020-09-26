@@ -14,7 +14,7 @@ function ContactInfo() {
   return (
     <div className='contactInfo'>
       <div className='contactInfo__left'>
-        <div className='row'>
+        <div className='row justify-content-center'>
           <p>
             <FaPhoneAlt /> <span>+256 000 00000000</span>
           </p>

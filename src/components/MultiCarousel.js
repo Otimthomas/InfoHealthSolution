@@ -11,11 +11,11 @@ function SampleNextArrow(props) {
       style={{
         ...style,
         display: "block",
-		background: "rgb(240,236,248)",
-		width: '2rem',
-		height: "2rem",
+        background: "var(--primaryColor)",
+        width: "2rem",
+        height: "2rem",
         top: "-3rem",
-        right: "45.5%",
+        right: "43%",
       }}
       onClick={onClick}
     />
@@ -29,10 +29,10 @@ function SamplePrevArrow(props) {
       className={className}
       style={{
         ...style,
-		display: "block",
-		background: "rgb(240,236,248)",
+        display: "block",
+        background: "var(--primaryColor)",
         top: "-3rem",
-        left: "45.5%",
+        left: "43%",
       }}
       onClick={onClick}
     />
@@ -44,7 +44,7 @@ function MultiCarousel({children}) {
     infinite: true,
     speed: 2000,
     arrows: true,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     dots: true,
     autoplay: true,

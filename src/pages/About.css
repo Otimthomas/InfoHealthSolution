@@ -1,7 +1,11 @@
 .about {
 	font-size: 1.5rem;
 	display: flex;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
 	/* justify-content: space-evenly; */
+	padding: 0 4rem;
+	line-height: 1.7;
 }
 
 .about__left {
@@ -31,10 +35,11 @@
 
 
 .about .about__title {
-	font-size: 2.5rem;
-	font-weight: 500;
+	font-size: 3rem;
+	font-weight: 400;
 	margin-bottom: 2rem;
 	text-transform: uppercase;
+	color: var(--primaryColor)
 }
 
 @media (max-width: 990px){

@@ -25,6 +25,10 @@ class ContactForm extends Form {
   doSubmit = () => {
     //call server
     console.log(this.state.data);
+
+    // fetch('http://localhost:5000/contact', {
+    //   method='POST'
+    // })
   };
 
   render() {

@@ -8,38 +8,23 @@ function HomeTeam() {
       id: 1,
       img:
         "https://www.kirkham-legal.co.uk/wp-content/uploads/2017/02/profile-placeholder.png",
-      name: "Dr. Kevin Nuwe",
-      position: "Managing Director",
-      history: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore quoamet commodi nihil perferendis nostrum unde tempora. Libero eius culpa	adipisci? Inventore laudantium nisi, voluptatum iusto nam aut blanditiis
-	accusamus obcaecati sed quae quidem libero nesciunt illo, impedit maiores.`,
+      name: "Dr. Alison Annet Kinengyere",
+      position: "Director",
+      history: `Dr. Alison Annet Kinengyere works at the Makerere University College of Health
+      Sciences as an information scientist, heading the Sir Albert Cook Medical Library. She is 
+      also faculty at the Africa Centre of Systematic Reviews and Knowledge Translation, at the 
+      College of Health Sciences. She has a [...]`,
     },
     {
       id: 2,
       img:
         "https://www.kirkham-legal.co.uk/wp-content/uploads/2017/02/profile-placeholder.png",
-      name: "Dr. Kevin Nuwe",
-      position: "Managing Director",
-      history: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore quoamet commodi nihil perferendis nostrum unde tempora. Libero eius culpa	adipisci? Inventore laudantium nisi, voluptatum iusto nam aut blanditiis
-	  accusamus obcaecati sed quae quidem libero nesciunt illo, impedit maiores.`,
-    },
-    {
-      id: 3,
-      img:
-        "https://www.kirkham-legal.co.uk/wp-content/uploads/2017/02/profile-placeholder.png",
-      name: "Dr. Kevin Nuwe",
-      position: "Managing Director",
-      history: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore quoamet commodi nihil perferendis nostrum unde tempora. Libero eius culpa	adipisci? Inventore laudantium nisi, voluptatum iusto nam aut blanditiis
-	  accusamus obcaecati sed quae quidem libero nesciunt illo, impedit maiores.`,
-    },
-    {
-      id: 4,
-      img:
-        "https://www.kirkham-legal.co.uk/wp-content/uploads/2017/02/profile-placeholder.png",
-      name: "Dr. Kevin Nuwe",
-      position: "Managing Director",
-      history: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore quoamet commodi nihil perferendis nostrum unde tempora. Libero eius culpa	adipisci? Inventore laudantium nisi, voluptatum iusto nam aut blanditiis
-	  accusamus obcaecati sed quae quidem libero nesciunt illo, impedit maiores.`,
-    },
+      name: "Kevin Nuwatuhikize",
+      position: "Director",
+      history: `Kevin Nuwatuhikize holds a Bachelor's in Biomedical Sciences from
+      College of Health Sciences Makerere University with an elective in Micro and 
+      Molecular Biology. He is also an Entrepreneur and Managing Director of Alphas Media.`,
+    }
   ];
   return (
     <div className='hometeam'>
