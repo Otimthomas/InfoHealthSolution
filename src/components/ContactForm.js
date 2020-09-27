@@ -1,6 +1,7 @@
 import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/Form";
+import axios from 'axios';
 
 class ContactForm extends Form {
   state = {
@@ -22,13 +23,13 @@ class ContactForm extends Form {
     message: Joi.string().required().label("Message"),
   };
 
-  doSubmit = () => {
+  doSubmit = async() => {
     //call server
     console.log(this.state.data);
+    const {data} = this.state;
 
-    // fetch('http://localhost:5000/contact', {
-    //   method='POST'
-    // })
+    const res = await axios.post('http://localhost:5000/contact', data);
+    console.log(res);
   };
 
   render() {
