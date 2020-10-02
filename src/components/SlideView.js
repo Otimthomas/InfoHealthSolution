@@ -15,7 +15,7 @@ import medical3 from "../assets/medical3.jpg";
 const items = [
   {
     src: medical1,
-    altText: "Welcome to InfoHealth solutions Ltd",
+    altText: "Welcome to Info Health solutions Ltd",
     caption: "",
   },
   {
