@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {Link} from "react-router-dom";
 import {
   Carousel,
   CarouselItem,
@@ -14,18 +15,30 @@ import medical3 from "../assets/medical3.jpg";
 const items = [
   {
     src: medical1,
-    altText: "Slide 1",
-    caption: "Slide 1",
+    altText: "Welcome to InfoHealth solutions Ltd",
+    caption: "",
   },
   {
     src: medical2,
-    altText: "Slide 2",
-    caption: "Slide 2",
+    altText: "At INFOSOLUTIONS Ltd we offer services like capacity support and research support",
+    caption: (
+      <Link
+        to='/services'
+        className='slideview__link'>
+        Services
+      </Link>
+    ),
   },
   {
     src: medical3,
-    altText: "Slide 3",
-    caption: "Slide 3",
+    altText: "Get in touch with us",
+    caption: (
+      <Link
+        to='/contact'
+        className='slideview__link slideview__link-red'>
+        Contact us
+      </Link>
+    ),
   },
 ];
 
@@ -61,35 +74,35 @@ const SlideView = () => {
         </div>
         <CarouselCaption
           captionText={item.caption}
-          captionHeader={item.caption}
+          captionHeader={item.altText}
         />
       </CarouselItem>
     );
   });
 
   return (
-      <Carousel
-        className='slideview'
+    <Carousel
+      className='slideview'
+      activeIndex={activeIndex}
+      next={next}
+      previous={previous}>
+      <CarouselIndicators
+        items={items}
         activeIndex={activeIndex}
-        next={next}
-        previous={previous}>
-        <CarouselIndicators
-          items={items}
-          activeIndex={activeIndex}
-          onClickHandler={goToIndex}
-        />
-        {slides}
-        <CarouselControl
-          direction='prev'
-          directionText='Previous'
-          onClickHandler={previous}
-        />
-        <CarouselControl
-          direction='next'
-          directionText='Next'
-          onClickHandler={next}
-        />
-      </Carousel>
+        onClickHandler={goToIndex}
+      />
+      {slides}
+      <CarouselControl
+        direction='prev'
+        directionText='Previous'
+        onClickHandler={previous}
+      />
+      <CarouselControl
+        direction='next'
+        directionText='Next'
+        onClickHandler={next}
+      />
+    </Carousel>
   );
 };
 

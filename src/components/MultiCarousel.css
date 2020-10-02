@@ -1,0 +1,11 @@
+
+
+@media screen and (max-width: 640px) {
+	.slick-slider .slick-next {
+		right: 40% !important;
+	}
+
+	.slick-slider .slick-prev {
+		left: 40% !important;
+	}
+}

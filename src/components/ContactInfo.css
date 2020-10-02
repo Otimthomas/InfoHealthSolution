@@ -3,10 +3,10 @@
 	font-size: 1.2rem;
 	font-weight: 500;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	background-color: #000;
 	color: rgb(160, 160, 160);
-	padding: 1rem 12rem;
+	padding: 1rem 6rem;
 
 }
 
@@ -35,13 +35,17 @@
 .contactInfo .contactInfo__right {
 	/* background-color: orangered; */
 	display: flex;
+	justify-content: center;
 }
 
 .contactInfo .contactInfo__right .contactInfo__link{
-	padding-right: 2rem;
 	color: rgb(160, 160, 160);
 	font-size: 1.5rem;
 	transition: all .2s;
+}
+
+.contactInfo .contactInfo__right .contactInfo__link:not(:last-child){
+	padding-right: 2rem;
 }
 
 .contactInfo .contactInfo__right .contactInfo__link:hover {
@@ -68,10 +72,17 @@
 @media (max-width: 710px){
 	.contactInfo .contactInfo__left{
 		flex-direction: column;
-		align-items: center;
+		/* align-items: left; */
 	}
 
+	.contactInfo .contactInfo__left p {
+		/* border: 0; */
+	}
+}
+
+@media (max-width: 536px) {
 	.contactInfo .contactInfo__left p {
 		border: 0;
 	}
 }
+

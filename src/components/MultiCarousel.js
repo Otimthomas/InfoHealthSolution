@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "slick-carousel/slick/slick.css";
+import "./MultiCarousel.css";
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {

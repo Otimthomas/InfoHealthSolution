@@ -24,7 +24,7 @@
 }
 
 .intro__link {
-	padding: 1rem 8rem;
+	padding: .5rem 8rem;
 	background-color: var(--primaryColor);
 	color: #fff;
 	border: 2px solid var(--primaryColor);
@@ -70,11 +70,29 @@
 	}
 
 	.intro__right .intro__link{
-		/* text-align: center; */
-		padding: 1rem 3rem;
+		padding: .5rem 8rem;
+		justify-content: center;
 	}
 
 	.intro__right .intro__link:not(:first-child) {
 		margin-left: 1rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.intro__right {
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 1rem;
+	}
+
+
+	.intro__right .intro__link:not(:first-child) {
+		margin-left: 0;
+	}
+
+	.intro__right .intro__link{
+		/* text-align: center; */
+		padding: .5rem 2rem;
 	}
 }
