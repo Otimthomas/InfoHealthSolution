@@ -8,7 +8,7 @@ import {
   CarouselCaption,
 } from "reactstrap";
 import "./SlideView.css";
-import medical1 from "../assets/medical1.jpg";
+import medical1 from "../assets/medical-hero.jpg";
 import medical8 from "../assets/medical8.jpg";
 import medical6 from "../assets/medical6.jpg";
 

@@ -7,7 +7,7 @@
 	background-color: #000;
 	color: rgb(160, 160, 160);
 	padding: 1rem 6rem;
-
+	border-top: 2px solid var(--primaryColor);
 }
 
 .contactInfo .contactInfo__left{
