@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import img from "../assets/medical5.jpg";
+import img from "../assets/medical6.jpg";
 import "./About.css";
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
         <div className='about__left'>
           <h2 className='about__title'>Background</h2>
           <p>
-            All INFOHEALTH SOLUTIONS LTD, we believe that information is power
+            All INFOHEALTH SOLUTIONS, we believe that information is power
             when it is shared and used to add value to the health and wellbeing
             of people.
           </p>

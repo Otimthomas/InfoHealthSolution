@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import img from "../assets/medical3.jpg";
+import img from "../assets/medical11.jpg";
 import "./Team.css";
 
 function Team() {

@@ -9,18 +9,18 @@ import {
 } from "reactstrap";
 import "./SlideView.css";
 import medical1 from "../assets/medical1.jpg";
-import medical2 from "../assets/medical2.jpg";
-import medical3 from "../assets/medical3.jpg";
+import medical8 from "../assets/medical8.jpg";
+import medical6 from "../assets/medical6.jpg";
 
 const items = [
   {
     src: medical1,
-    altText: "Welcome to Info Health solutions Ltd",
+    altText: "Welcome to Info Health solutions",
     caption: "",
   },
   {
-    src: medical2,
-    altText: "At INFOSOLUTIONS Ltd we offer services like capacity support and research support",
+    src: medical8,
+    altText: "At INFOSOLUTIONS we offer services like capacity support and research support",
     caption: (
       <Link
         to='/services'
@@ -30,7 +30,7 @@ const items = [
     ),
   },
   {
-    src: medical3,
+    src: medical6,
     altText: "Get in touch with us",
     caption: (
       <Link

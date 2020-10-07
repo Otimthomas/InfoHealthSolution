@@ -10,7 +10,7 @@ function Footer() {
         <p>
           Copyright &copy; {new Date().getFullYear()}{" "}
           <Link className='footer__link' to='/'>
-            INFOHEALTH SOLUTIONS.
+            INFOHEALTH SOLUTIONS Ltd.
           </Link>
           <span> All rights reserved</span>
         </p>

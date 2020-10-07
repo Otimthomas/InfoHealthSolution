@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import { FaFileMedicalAlt, FaHandsHelping} from 'react-icons/fa';
 import Hero from "../components/Hero";
-import img from "../assets/medical3.jpg";
+import img from "../assets/medical8.jpg";
 import "./Services.css";
 
 function Services() {

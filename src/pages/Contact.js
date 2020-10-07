@@ -2,7 +2,7 @@ import React from "react";
 import ContactForm from "../components/ContactForm";
 import Hero from "../components/Hero";
 import "./Contact.css";
-import img from "../assets/medical4.jpg";
+import img from "../assets/medical6.jpg";
 // import Map from "../components/Map";
 
 function Contact() {

@@ -27,7 +27,8 @@
 }
 
 .navbar .nav-item a {
-	color: rgb(164,161,172);
+	color: rgb(164, 161, 172);
+	outline: none;
 	transition: all .3s;
 }
 
@@ -41,4 +42,20 @@
 .selected {
 	color: var(--secondaryColor) !important;
 	font-weight: 700;
+}
+
+@media screen and (width: 768px) {
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.navbar .nav-item {
+		padding-right: 2rem;
+		border: none;
+	}
+
+	.navbar-nav {
+		width: 100%;
+	}
 }

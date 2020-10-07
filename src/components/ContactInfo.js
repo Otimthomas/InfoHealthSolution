@@ -16,13 +16,16 @@ function ContactInfo() {
       <div className='contactInfo__left'>
         <div className='row justify-content-center'>
           <p>
-            <FaPhoneAlt /> <span>+256 000 00000000</span>
+            <FaPhoneAlt /> <span>+256 772634400</span>
           </p>
           <p>
-            <FiMail /> info@react.com
+            <span>+256 789491929</span>
           </p>
           <p>
-            <FaWhatsapp /> +256 000 00000000
+            <FiMail /> infohealthsolutions2.gmail.com
+          </p>
+          <p>
+            <FaWhatsapp /> +256 703147479
           </p>
         </div>
       </div>
