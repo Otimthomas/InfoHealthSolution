@@ -34,7 +34,7 @@ class ContactForm extends Form {
 
   render() {
     return (
-      <div>
+      <div className="contactForm">
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("name", "Name")}
           {this.renderInput("email", "Email")}

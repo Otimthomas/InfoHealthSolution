@@ -11,12 +11,6 @@ function About() {
         <div className='about__left'>
           <h2 className='about__title'>Background</h2>
           <p>
-            All INFOHEALTH SOLUTIONS, we believe that information is power
-            when it is shared and used to add value to the health and wellbeing
-            of people.
-          </p>
-
-          <p>
             INFOHEALTH SOLUTIONS LTD (<span>www.infohealthsolutions.org</span>)
             was established in 2020 to provide health information, reference and
             research consulting services. Completing courses, research and
@@ -24,8 +18,7 @@ function About() {
             information science skills gap among researchers and scholars. The
             skill gap makes it hard to faculty, scholars, health workers and
             researchers to find trustworthy, evidence-based and reliable sources
-            of information to inform health their learning, teaching research
-            and policy
+            of information to inform health their learning, teaching and research
           </p>
          
         </div>

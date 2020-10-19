@@ -7,31 +7,35 @@ function Team() {
   const team = [
     {
       id: 1,
-      img:
-        "https://www.kirkham-legal.co.uk/wp-content/uploads/2017/02/profile-placeholder.png",
+      img: "data:image/jpeg;base64,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",
       name: "Dr. Alison Annet Kinengyere",
       position: "Director",
       history: `Dr. Alison Annet Kinengyere works at the Makerere University College of Health
-      Sciences as an information scientist, heading the Sir Albert Cook Medical Library. She is 
-      also faculty at the Africa Centre of Systematic Reviews and Knowledge Translation, at the 
+      Sciences as an information science specialist, heading the Sir Albert Cook Medical Library. She is 
+      also faculty at the Africa Centre of Systematic Reviews and Knowledge Translation (AFCen), at the 
       College of Health Sciences. She has a Swedish Government-supported PhD holder in Information
       science, a Masters in Information Science and a Bachelor of Library and Information Science of Makerere 
-      University. She has authored and co-authored a number of research (including systematic revies, 
-        scoping reviews and evidence and gap maps), publishing in high impact journals. She has also been
-        involved in capacity building and mentorship of faculty and students at Makerere University,
+      University. She has authored and co-authored a number of research publications in high impact journals.
+      She is involved in capacity building and mentorship of medical students, faculty and students at Makerere University,
         Mbarara University of Science and Technology, Busitema University and Gulu University, 
-        and Action for Development (ACODE). She is an US International Cunningham Fellow (2007) and 
+        and Action for Development (ACODE), and a number of research organisations. She is an US International Cunningham Fellow (2007) and 
         a Training Champion with Better Evidence at Ariadne Labs and the Global Health Delivery Project
-        at Harvard (2020). She trained comprehensive systematic reviews training at the Joanna Briggs Institure,
+        at Harvard (2020). She trained comprehensive systematic reviews training at the Joanna Briggs Institute,
         Kingstone, Canada (2018), and at the Institute of Education, University of London (2016). She
-        is currently the Principle Investigator of the European Uniion-funded African Higher Education
-        Leadership in Advancing Inclusive Innovation for Development (AHEAD)`,
+        is currently the Principle Investigator of the European Union-funded African Higher Education
+        Leadership in Advancing Inclusive Innovation for Development (AHEAD). She is part of the covid-19 pandemic rapid 
+        evidence syntheses (COVEPRES) currently implementing activities for the following projects;
+      `,
+      list: [
+        "Youth Employment Evidence and Map Gap under the MasterCard Foundation",
+        "Women's Groups review under the Campbell Collaboration",
+        "Three COVID-19 evidence syntheses on the use of masks, testing and health worker safety, under the Makerere University Research and Innovation Fund",
+      ],
     },
     {
       id: 2,
-      img:
-        "https://www.kirkham-legal.co.uk/wp-content/uploads/2017/02/profile-placeholder.png",
-      name: "Kevin Nuwatuhikize",
+      img: "img/pp-1.JPG",
+      name: "Mr. Kevin Nuwatuhikize",
       position: "Director",
       history: `Kevin Nuwatuhikize holds a Bachelor's in Biomedical Sciences from
       College of Health Sciences Makerere University with an elective in Micro and 
@@ -50,6 +54,17 @@ function Team() {
               <p className='team__cardName'>{item.name}</p>
               <h3 className='team__cardPosition'>{item.position}</h3>
               <p className='team__cardText'>{item.history}</p>
+              {item.list && (
+                <p className='team__cardList'>
+                  {item.list.map((list) => {
+                    return (
+                      <ul>
+                        <li>{list}</li>
+                      </ul>
+                    );
+                  })}
+                </p>
+              )}
             </div>
           ))}
         </div>
