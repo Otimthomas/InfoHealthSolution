@@ -20,7 +20,7 @@ const items = [
   },
   {
     src: medical8,
-    altText: "At INFOHEALTH SOLUTIONS we offer services like capacity support and research support",
+    altText: "At INFOHEALTH SOLUTIONS we offer services like capacity building and research support",
     caption: (
       <Link
         to='/services'
