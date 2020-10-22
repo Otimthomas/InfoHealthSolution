@@ -15,12 +15,12 @@ import medical6 from "../assets/medical6.jpg";
 const items = [
   {
     src: medical1,
-    altText: "Welcome to Info Health solutions",
+    altText: "Welcome to InfoHealth solutions",
     caption: "",
   },
   {
     src: medical8,
-    altText: "At INFOSOLUTIONS we offer services like capacity support and research support",
+    altText: "At INFOHEALTH SOLUTIONS we offer services like capacity support and research support",
     caption: (
       <Link
         to='/services'

@@ -16,9 +16,9 @@ function About() {
             research consulting services. Completing courses, research and
             publishing assignments is sometimes a challenge due to the
             information science skills gap among researchers and scholars. The
-            skill gap makes it hard to faculty, scholars, health workers and
+            skill gap makes it hard for faculty, scholars, health workers and
             researchers to find trustworthy, evidence-based and reliable sources
-            of information to inform health their learning, teaching and research
+            of information to inform their learning, teaching and research
           </p>
          
         </div>
