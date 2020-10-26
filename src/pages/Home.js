@@ -21,7 +21,7 @@ function Home() {
           <p className='home__serviceText'>
             We support health researchers in literature searching for single
             studies, scoping reviews, systematic reviews and evidence and gap
-            maps
+            maps.
           </p>
           <Link className='home__serviceLink' to='/services'>
             Read More
