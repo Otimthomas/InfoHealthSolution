@@ -51,4 +51,8 @@ export default [
 		id: 13,
 		img: 'img/INFO_12-large.JPG'
 	},
+	{
+		id: 14,
+		img: 'img/INFO_14-large.JPG'
+	}
 ]
