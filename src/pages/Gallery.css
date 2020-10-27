@@ -14,7 +14,7 @@
 	height: 0;
 	padding: 50% 0;
 	position: relative;
-	opacity: 0.8;
+	/* opacity: 0.9; */
 	/* object-fit: contain; */
 	border-radius: 10px;
 	transition: all .1s;
@@ -24,7 +24,7 @@
 	outline: 2px solid var(--primaryColor);
 	outline-offset: 1rem;
 	cursor: pointer;
-	opacity: 1;
+	/* opacity: 1; */
 }
 
 .gallery__img {

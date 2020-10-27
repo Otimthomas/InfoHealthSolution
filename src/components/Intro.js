@@ -25,13 +25,13 @@ function Intro() {
           has become the predominant source of power in society today.
         </p>
         <p className='intro__text'>
-          While we at INFOHEALTH SOLUTIONS LTD are consultants in health information, we are also 
+          While we at INFO HEALTH SOLUTIONS LTD are consultants in health information, we are also 
           researchers and scholars, and are therefore familiar with the challenges encountered in
           learning, teaching and research. We have come to appreciate the fact that, while
           evidence based medicine (EBM) improves patient outcomes, locating this information
           cannot be taken for granted, because health workers, students and faculty do not 
           necessarily have the skills of locating and repackaging this information for use when 
-          needed. We at INFOHEALTH SOLUTIONS LTD have the required skills.
+          needed. We at INFO HEALTH SOLUTIONS LTD have the required skills.
         </p>
       </div>
       <div className='intro__right'>

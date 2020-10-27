@@ -11,7 +11,7 @@ function About() {
         <div className='about__left'>
           <h2 className='about__title'>Background</h2>
           <p>
-            INFOHEALTH SOLUTIONS LTD (<span>www.infohealthsolutions.org</span>)
+            INFO HEALTH SOLUTIONS LTD (<span>www.infohealthsolutions.org</span>)
             was established in 2020 to provide health information, reference and
             research consulting services. Completing courses, research and
             publishing assignments is sometimes a challenge due to the
