@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import "./Header.css";
-import logo from "../assets/INFOHEALTHLOGO.jpg";
+import logo from "../assets/logo_2.jpg";
 
 const Header = () => {
   return (
