@@ -2,6 +2,7 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/Form";
 import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 
 class ContactForm extends Form {
   state = {
@@ -28,8 +29,10 @@ class ContactForm extends Form {
     console.log(this.state.data);
     const {data} = this.state;
 
-    const res = await axios.post('http://localhost:5000/contact', data);
-    console.log(res);
+    await axios.post('https://infohealthsolutions-api.herokuapp.com/contact', data);
+    // this.props.history.push('/')
+    window.location = '/';
+  
   };
 
   render() {
