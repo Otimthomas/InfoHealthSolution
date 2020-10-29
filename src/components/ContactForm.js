@@ -2,7 +2,6 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/Form";
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
 
 class ContactForm extends Form {
   state = {
