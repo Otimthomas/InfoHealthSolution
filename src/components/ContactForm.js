@@ -2,6 +2,7 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/Form";
 import axios from 'axios';
+import {withRouter} from 'react-router-dom'
 
 class ContactForm extends Form {
   state = {
@@ -29,8 +30,8 @@ class ContactForm extends Form {
     const {data} = this.state;
 
     await axios.post('https://infohealthsolutions-api.herokuapp.com/contact', data);
-    // this.props.history.push('/')
-    window.location = '/';
+    // await this.props.history.push('/');
+    window.location.href = '/';
   
   };
 
@@ -50,4 +51,4 @@ class ContactForm extends Form {
   }
 }
 
-export default ContactForm;
+export default withRouter(ContactForm);
