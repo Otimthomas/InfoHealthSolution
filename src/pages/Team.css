@@ -53,6 +53,7 @@
 
 .team__cardText {
 	overflow: hidden;
+	color: #545454;
 }
 
 .team__cardPosition {

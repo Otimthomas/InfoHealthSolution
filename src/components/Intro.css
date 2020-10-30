@@ -1,12 +1,13 @@
 .intro {
 	font-size: 1.5rem;
-	line-height: 1.8;
+	line-height: 2.1;
 	/* letter-spacing: 1.5px; */
 	margin-top: 3rem;
 	padding-right: 4rem;
 	padding-left: 4rem;
 	display: flex;
 	justify-content: space-evenly;
+	color: #545454;
 }
 
 .intro__left {

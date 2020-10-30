@@ -9,7 +9,8 @@
 	padding-left: 4rem;
 	font-size: 1.5rem; 
 	background-color: rgb(240,236,248);
-	line-height: 1.7;
+	line-height: 2;
+	color: #545454;
 }
 
 .services__service {
