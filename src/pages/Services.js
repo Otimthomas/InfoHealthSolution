@@ -37,7 +37,7 @@ function Services() {
               </li>
               <li>We do plagiarism check for pre-published research</li>
               <li>We support grant writing and biosketches</li>
-              <li>Research/journal article editing</li>
+              <li>Reviewing, editing and proofreading of academic research and journal articles</li>
               <li>Identifying relevant journals to publish research results</li>
               <li>
                 Proof reading and editing of research articles for publication
