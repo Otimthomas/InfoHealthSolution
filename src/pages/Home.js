@@ -1,6 +1,7 @@
 import React from "react";
 import Intro from "../components/Intro";
-import { FaFileMedicalAlt, FaHandsHelping} from "react-icons/fa";
+import {FaFileMedicalAlt, FaHandsHelping} from "react-icons/fa";
+import {BiSupport} from 'react-icons/bi'
 import {GrMail} from "react-icons/gr";
 import {Link} from "react-router-dom";
 import HomeTeam from "../components/HomeTeam";
@@ -35,6 +36,20 @@ function Home() {
           <p className='home__serviceText'>
             We conduct training for researchers, facultly and students (boths
             graduate and under-graduate)
+          </p>
+          <Link className='home__serviceLink' to='/services'>
+            Read More
+          </Link>
+        </div>
+        <div className='home__service'>
+          <span className='home__serviceIcon'>
+            <BiSupport/>
+          </span>
+          <h4>Support to Clinicians and Public Health Personnel Through Information Outreach</h4>
+          <p className='home__serviceText'>
+            We support evidence-based practice (EBP) by providing reliable and
+            up-to-date evidence-based information on which to base to formulate
+            and answer clinical questions for ward rounds.
           </p>
           <Link className='home__serviceLink' to='/services'>
             Read More

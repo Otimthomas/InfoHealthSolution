@@ -1,5 +1,6 @@
 import React from "react";
 import {FaFileMedicalAlt, FaHandsHelping} from "react-icons/fa";
+import {BiSupport} from 'react-icons/bi'
 import Hero from "../components/Hero";
 import img from "../assets/medical8.jpg";
 import "./Services.css";
@@ -37,7 +38,10 @@ function Services() {
               </li>
               <li>We do plagiarism check for pre-published research</li>
               <li>We support grant writing and biosketches</li>
-              <li>Reviewing, editing and proofreading of academic research and journal articles</li>
+              <li>
+                Reviewing, editing and proofreading of academic research and
+                journal articles
+              </li>
               <li>Identifying relevant journals to publish research results</li>
               <li>
                 Proof reading and editing of research articles for publication
@@ -65,6 +69,22 @@ function Services() {
               <li>Scholarly writing and communication skills</li>
               <li>Presentation of research findings</li>
             </ul>
+          </p>
+        </div>
+        <div className='services__service'>
+          <span className='services__serviceIcon'>
+            <BiSupport />
+          </span>
+          <h4>
+            Support to Clinicians and Public Health Personnel Through
+            Information Outreach
+          </h4>
+          <p className='services__serviceText'>
+            We support evidence-based practice (EBP) by providing reliable and
+            up-to-date evidence-based information on which to base to formulate and
+            answer clinical questions for ward rounds. This is a collaborative
+            service that is based on PICO (Patient or Problem, Intervention,
+            Comparison, Outcome) format for 
           </p>
         </div>
       </div>
