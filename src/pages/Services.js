@@ -1,6 +1,6 @@
 import React from "react";
 import {FaFileMedicalAlt, FaHandsHelping} from "react-icons/fa";
-import {BiSupport} from 'react-icons/bi'
+import {BiSupport} from "react-icons/bi";
 import Hero from "../components/Hero";
 import img from "../assets/medical8.jpg";
 import "./Services.css";
@@ -81,10 +81,12 @@ function Services() {
           </h4>
           <p className='services__serviceText'>
             We support evidence-based practice (EBP) by providing reliable and
-            up-to-date evidence-based information on which to base to formulate and
-            answer clinical questions for ward rounds. This is a collaborative
-            service that is based on PICO (Patient or Problem, Intervention,
-            Comparison, Outcome) format for 
+            up-to-date evidence-based information on which to base to formulate
+            and answer clinical questions for ward rounds. This is a
+            collaborative service that is based on PICO (Patient or Problem,
+            Intervention, Comparison, Outcome) format for formulating searchable
+            questions, searching the literature effectively, and options for
+            obtaining information to support clinical decision making.
           </p>
         </div>
       </div>
